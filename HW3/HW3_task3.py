@@ -4,7 +4,9 @@
 17 -> True
 20 -> False
 23 -> True"""
-number=23
+number=2
+
+
 def check_prime_numbers(number_check:int):
     count_remainder_division=0
     for i in range(number_check+1):
@@ -20,4 +22,7 @@ def check_prime_numbers(number_check:int):
     else:
         return True
 
-print(check_prime_numbers(number))
+if number==1:
+    print(False)
+else:
+    print(check_prime_numbers(number))
