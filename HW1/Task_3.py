@@ -9,7 +9,8 @@
 4, 5, 12 -> True"""
 
 
-a,b,kusok=3, 4, 6
+a, b, kusok = map(int, input().split(','))
+
 if (kusok%a==0 and b>kusok//a) or (kusok%b==0 and a>kusok//b):
     print('True')
 else:
