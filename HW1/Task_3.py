@@ -9,5 +9,8 @@
 4, 5, 12 -> True"""
 
 
-a,b,x=int(input()),int(input()),int(input())
-if x%a==0 or x%a==0
+a,b,kusok=3, 4, 6
+if (kusok%a==0 and b>kusok//a) or (kusok%b==0 and a>kusok//b):
+    print('True')
+else:
+    print('False')
